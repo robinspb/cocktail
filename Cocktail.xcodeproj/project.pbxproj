@@ -10,13 +10,48 @@
 		B2F2A41F1B1B35F1004E05E8 /* Cocktail.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F2A41E1B1B35F1004E05E8 /* Cocktail.h */; };
 		B2F2A4211B1B35F1004E05E8 /* CocktailPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F2A4201B1B35F1004E05E8 /* CocktailPriv.h */; };
 		B2F2A4231B1B35F1004E05E8 /* Cocktail.cp in Sources */ = {isa = PBXBuildFile; fileRef = B2F2A4221B1B35F1004E05E8 /* Cocktail.cp */; };
+		B2F2A42B1B1B379C004E05E8 /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2F2A42A1B1B379C004E05E8 /* Deck.cpp */; };
+		B2F2A42E1B1B37C1004E05E8 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2F2A42C1B1B37C1004E05E8 /* Card.cpp */; };
+		B2F2A42F1B1B37C1004E05E8 /* Card.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F2A42D1B1B37C1004E05E8 /* Card.h */; };
+		B2F2A4371B1B39BC004E05E8 /* testDeck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2F2A4361B1B39BC004E05E8 /* testDeck.cpp */; };
+		B2F2A4451B1B461D004E05E8 /* libCocktail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F2A41B1B1B35F1004E05E8 /* libCocktail.a */; };
+		B2F2A44C1B1B4D98004E05E8 /* libCocktail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F2A41B1B1B35F1004E05E8 /* libCocktail.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2F2A4461B1B461D004E05E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F2A4131B1B35F0004E05E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F2A41A1B1B35F1004E05E8;
+			remoteInfo = Cocktail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2F2A4321B1B39BC004E05E8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B2F2A41B1B1B35F1004E05E8 /* libCocktail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocktail.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F2A41E1B1B35F1004E05E8 /* Cocktail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cocktail.h; sourceTree = "<group>"; };
 		B2F2A4201B1B35F1004E05E8 /* CocktailPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocktailPriv.h; sourceTree = "<group>"; };
 		B2F2A4221B1B35F1004E05E8 /* Cocktail.cp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cocktail.cp; sourceTree = "<group>"; };
+		B2F2A4291B1B3607004E05E8 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		B2F2A42A1B1B379C004E05E8 /* Deck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
+		B2F2A42C1B1B37C1004E05E8 /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		B2F2A42D1B1B37C1004E05E8 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		B2F2A4341B1B39BC004E05E8 /* testDeck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testDeck; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F2A4361B1B39BC004E05E8 /* testDeck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testDeck.cpp; sourceTree = "<group>"; };
+		B2F2A43F1B1B461D004E05E8 /* Cocktail Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cocktail Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +62,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2F2A4311B1B39BC004E05E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F2A44C1B1B4D98004E05E8 /* libCocktail.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F2A43C1B1B461D004E05E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F2A4451B1B461D004E05E8 /* libCocktail.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -34,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				B2F2A41D1B1B35F1004E05E8 /* Cocktail */,
+				B2F2A4351B1B39BC004E05E8 /* testDeck */,
 				B2F2A41C1B1B35F1004E05E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				B2F2A41B1B1B35F1004E05E8 /* libCocktail.a */,
+				B2F2A4341B1B39BC004E05E8 /* testDeck */,
+				B2F2A43F1B1B461D004E05E8 /* Cocktail Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,10 +104,22 @@
 			isa = PBXGroup;
 			children = (
 				B2F2A41E1B1B35F1004E05E8 /* Cocktail.h */,
+				B2F2A4291B1B3607004E05E8 /* Deck.h */,
+				B2F2A42A1B1B379C004E05E8 /* Deck.cpp */,
+				B2F2A42C1B1B37C1004E05E8 /* Card.cpp */,
+				B2F2A42D1B1B37C1004E05E8 /* Card.h */,
 				B2F2A4201B1B35F1004E05E8 /* CocktailPriv.h */,
 				B2F2A4221B1B35F1004E05E8 /* Cocktail.cp */,
 			);
 			path = Cocktail;
+			sourceTree = "<group>";
+		};
+		B2F2A4351B1B39BC004E05E8 /* testDeck */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2A4361B1B39BC004E05E8 /* testDeck.cpp */,
+			);
+			path = testDeck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -64,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F2A41F1B1B35F1004E05E8 /* Cocktail.h in Headers */,
+				B2F2A42F1B1B37C1004E05E8 /* Card.h in Headers */,
 				B2F2A4211B1B35F1004E05E8 /* CocktailPriv.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +155,41 @@
 			productReference = B2F2A41B1B1B35F1004E05E8 /* libCocktail.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		B2F2A4331B1B39BC004E05E8 /* testDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F2A4381B1B39BC004E05E8 /* Build configuration list for PBXNativeTarget "testDeck" */;
+			buildPhases = (
+				B2F2A4301B1B39BC004E05E8 /* Sources */,
+				B2F2A4311B1B39BC004E05E8 /* Frameworks */,
+				B2F2A4321B1B39BC004E05E8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testDeck;
+			productName = testDeck;
+			productReference = B2F2A4341B1B39BC004E05E8 /* testDeck */;
+			productType = "com.apple.product-type.tool";
+		};
+		B2F2A43E1B1B461D004E05E8 /* Cocktail Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F2A4481B1B461D004E05E8 /* Build configuration list for PBXNativeTarget "Cocktail Tests" */;
+			buildPhases = (
+				B2F2A43B1B1B461D004E05E8 /* Sources */,
+				B2F2A43C1B1B461D004E05E8 /* Frameworks */,
+				B2F2A43D1B1B461D004E05E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F2A4471B1B461D004E05E8 /* PBXTargetDependency */,
+			);
+			name = "Cocktail Tests";
+			productName = "Cocktail Tests";
+			productReference = B2F2A43F1B1B461D004E05E8 /* Cocktail Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +200,12 @@
 				ORGANIZATIONNAME = Robinson;
 				TargetAttributes = {
 					B2F2A41A1B1B35F1004E05E8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B2F2A4331B1B39BC004E05E8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B2F2A43E1B1B461D004E05E8 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -115,20 +223,57 @@
 			projectRoot = "";
 			targets = (
 				B2F2A41A1B1B35F1004E05E8 /* Cocktail */,
+				B2F2A4331B1B39BC004E05E8 /* testDeck */,
+				B2F2A43E1B1B461D004E05E8 /* Cocktail Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F2A43D1B1B461D004E05E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B2F2A4171B1B35F1004E05E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F2A42E1B1B37C1004E05E8 /* Card.cpp in Sources */,
+				B2F2A42B1B1B379C004E05E8 /* Deck.cpp in Sources */,
 				B2F2A4231B1B35F1004E05E8 /* Cocktail.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2F2A4301B1B39BC004E05E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F2A4371B1B39BC004E05E8 /* testDeck.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F2A43B1B1B461D004E05E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2F2A4471B1B461D004E05E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F2A41A1B1B35F1004E05E8 /* Cocktail */;
+			targetProxy = B2F2A4461B1B461D004E05E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B2F2A4241B1B35F1004E05E8 /* Debug */ = {
@@ -227,6 +372,56 @@
 			};
 			name = Release;
 		};
+		B2F2A4391B1B39BC004E05E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2F2A43A1B1B39BC004E05E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2F2A4491B1B461D004E05E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cocktail Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2F2A44A1B1B461D004E05E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cocktail Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -244,6 +439,22 @@
 			buildConfigurations = (
 				B2F2A4271B1B35F1004E05E8 /* Debug */,
 				B2F2A4281B1B35F1004E05E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2F2A4381B1B39BC004E05E8 /* Build configuration list for PBXNativeTarget "testDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F2A4391B1B39BC004E05E8 /* Debug */,
+				B2F2A43A1B1B39BC004E05E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2F2A4481B1B461D004E05E8 /* Build configuration list for PBXNativeTarget "Cocktail Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F2A4491B1B461D004E05E8 /* Debug */,
+				B2F2A44A1B1B461D004E05E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
