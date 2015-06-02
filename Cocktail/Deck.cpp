@@ -45,11 +45,11 @@ Deck::Deck(unsigned int numPlayers) {
             takenIndex++;
          }
          else {
-            m_cards.push_back(Card(id));
+            cards().push_back(Card(id));
          }
       }
    }
-   assert(m_len == m_cards.size());
+   assert(m_len == cards().size());
    m_numMissingCards = numToTakeOut; 
 }
 
@@ -58,7 +58,7 @@ Deck::~Deck() {}
 Deck & Deck::shuffle() { return *this ; }
 
 void Deck::print() {
-   for (int i = 0; i < m_cards.size(); ++ i ) {
-      m_cards[i].print();
+   for ( auto && card: cards())  {
+      card.print();
    }
 }

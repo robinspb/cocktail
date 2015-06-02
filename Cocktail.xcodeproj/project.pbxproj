@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2EC8BB41B1D52EF00A2E333 /* CardHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2EC8BB21B1D52EF00A2E333 /* CardHolder.cpp */; };
+		B2EC8BB51B1D52EF00A2E333 /* CardHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = B2EC8BB31B1D52EF00A2E333 /* CardHolder.h */; };
 		B2F2A41F1B1B35F1004E05E8 /* Cocktail.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F2A41E1B1B35F1004E05E8 /* Cocktail.h */; };
 		B2F2A4211B1B35F1004E05E8 /* CocktailPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F2A4201B1B35F1004E05E8 /* CocktailPriv.h */; };
 		B2F2A4231B1B35F1004E05E8 /* Cocktail.cp in Sources */ = {isa = PBXBuildFile; fileRef = B2F2A4221B1B35F1004E05E8 /* Cocktail.cp */; };
@@ -41,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B2EC8BB21B1D52EF00A2E333 /* CardHolder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardHolder.cpp; sourceTree = "<group>"; };
+		B2EC8BB31B1D52EF00A2E333 /* CardHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardHolder.h; sourceTree = "<group>"; };
 		B2F2A41B1B1B35F1004E05E8 /* libCocktail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocktail.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F2A41E1B1B35F1004E05E8 /* Cocktail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cocktail.h; sourceTree = "<group>"; };
 		B2F2A4201B1B35F1004E05E8 /* CocktailPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocktailPriv.h; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				B2F2A42D1B1B37C1004E05E8 /* Card.h */,
 				B2F2A4201B1B35F1004E05E8 /* CocktailPriv.h */,
 				B2F2A4221B1B35F1004E05E8 /* Cocktail.cp */,
+				B2EC8BB21B1D52EF00A2E333 /* CardHolder.cpp */,
+				B2EC8BB31B1D52EF00A2E333 /* CardHolder.h */,
 			);
 			path = Cocktail;
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 			files = (
 				B2F2A41F1B1B35F1004E05E8 /* Cocktail.h in Headers */,
 				B2F2A42F1B1B37C1004E05E8 /* Card.h in Headers */,
+				B2EC8BB51B1D52EF00A2E333 /* CardHolder.h in Headers */,
 				B2F2A4211B1B35F1004E05E8 /* CocktailPriv.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +254,7 @@
 				B2F2A42E1B1B37C1004E05E8 /* Card.cpp in Sources */,
 				B2F2A42B1B1B379C004E05E8 /* Deck.cpp in Sources */,
 				B2F2A4231B1B35F1004E05E8 /* Cocktail.cp in Sources */,
+				B2EC8BB41B1D52EF00A2E333 /* CardHolder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +449,7 @@
 				B2F2A4281B1B35F1004E05E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2F2A4381B1B39BC004E05E8 /* Build configuration list for PBXNativeTarget "testDeck" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +458,7 @@
 				B2F2A43A1B1B39BC004E05E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2F2A4481B1B461D004E05E8 /* Build configuration list for PBXNativeTarget "Cocktail Tests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +467,7 @@
 				B2F2A44A1B1B461D004E05E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

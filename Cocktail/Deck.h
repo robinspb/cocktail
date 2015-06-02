@@ -12,15 +12,15 @@
 
 
 #include "Card.h"
+#include "CardHolder.h"
 #include <vector>
 
 
 
-class Deck {
+class Deck : public CardHolder {
   
 private:
    int m_len;
-   std::vector <Card> m_cards;
    int m_numMissingCards;
 public:
    /* Construct a deck appropriate for numPlayers */
